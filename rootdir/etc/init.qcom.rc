@@ -8,6 +8,10 @@ on boot
     # Fingerprint
     chown system system /sys/devices/platform/soc/soc:goodix_fp/proximity_state
 
+    # Flicker-free
+    chmod 0600 /sys/devices/platform/soc/soc\:qcom,dsi-display@18/msm_fb_ea_enable
+    chown system system /sys/devices/platform/soc/soc\:qcom,dsi-display@18/msm_fb_ea_enable
+
 on charger
     write /sys/class/backlight/panel0-backlight/brightness 150
 
