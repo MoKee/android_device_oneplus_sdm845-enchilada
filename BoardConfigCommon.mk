@@ -50,6 +50,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/oneplus/sdm845
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_CLANG_COMPILE := true
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Platform
 # TARGET_BOARD_PLATFORM := sdm845
