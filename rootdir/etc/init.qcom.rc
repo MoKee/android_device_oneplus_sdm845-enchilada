@@ -12,6 +12,9 @@ on boot
     chmod 0600 /sys/devices/platform/soc/soc\:qcom,dsi-display@18/msm_fb_ea_enable
     chown system system /sys/devices/platform/soc/soc\:qcom,dsi-display@18/msm_fb_ea_enable
 
+    # OTG
+    write /sys/class/power_supply/usb/otg_switch 1
+
 on charger
     write /sys/class/backlight/panel0-backlight/brightness 150
 
