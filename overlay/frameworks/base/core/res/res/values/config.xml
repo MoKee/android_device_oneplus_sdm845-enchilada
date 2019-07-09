@@ -303,6 +303,10 @@
         <item>"/system/framework/boot.vdex"</item>
         <item>"/system/framework/arm64/boot-core-libart.oat"</item>
         <item>"/system/framework/boot-core-libart.vdex"</item>
+        <item>"/system/lib64/libsurfaceflinger.so"</item>
+        <item>"/system/priv-app/SystemUI/SystemUI.apk"</item>
+        <item>"/system/framework/services.jar"</item>
+        <item>"/system/framework/framework.jar"</item>
     </string-array>
 
     <!-- Should the pinner service pin the Camera application? -->
