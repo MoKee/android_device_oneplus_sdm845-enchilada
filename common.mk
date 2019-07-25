@@ -162,3 +162,6 @@ PRODUCT_BOOT_JARS += \
 # Config panel
 PRODUCT_PACKAGES += \
     ConfigPanel
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-wfd.xml:system/etc/permissions/privapp-permissions-wfd.xml
