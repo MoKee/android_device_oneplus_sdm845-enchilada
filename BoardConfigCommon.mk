@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := oneplus
 
-COMMON_PATH := device/oneplus/sdm845-common
+COMMON_PATH := device/oneplus/sdm845-enchilada
 
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
@@ -134,4 +134,4 @@ BOARD_AVB_ENABLE := true
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
 
 # Inherit from the proprietary version
--include vendor/oneplus/sdm845-common/BoardConfigVendor.mk
+-include vendor/oneplus/sdm845-enchilada/BoardConfigVendor.mk
