@@ -1,7 +1,7 @@
 [
   {
-    "repository": "android_kernel_oneplus_sdm845",
-    "target_path": "kernel/oneplus/sdm845"
+    "repository": "android_kernel_oneplus_enchilada",
+    "target_path": "kernel/oneplus/enchilada"
   },
   {
     "repository": "android_packages_resources_devicesettings",
